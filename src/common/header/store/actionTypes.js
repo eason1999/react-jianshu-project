@@ -1,0 +1,6 @@
+export const INPUT_FOCUS = 'INPUT_FOCUS'
+export const INPUT_BLUR = 'INPUT_BLUR'
+export const MOUSE_IN = 'MOUSE_IN'
+export const MOUSE_OUT = 'MOUSE_OUT'
+export const ADD_KEY_LIST = 'ADD_KEY_LIST'
+export const ADD_PAGE_SIZE = 'ADD_PAGE_SIZE'
