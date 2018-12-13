@@ -1,0 +1,131 @@
+.recommendPage {
+  margin: 70px auto 0;
+  width: 960px;
+}
+.recommendTitle {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background: url('./../../static/img/recommend-title.png') no-repeat center;
+  background-size: cover;
+}
+.recommendTitle a {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  color: #fff;
+  font-size: 16px;
+}
+.recommendTitle i {
+  margin-right: 5px;
+}
+.listWrap {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.listWrap .list {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.listWrap .li {
+  float: left;
+  width: 33.3333%;
+  padding: 0 10px;
+  margin-top: 80px;
+  height: 320px;
+}
+.listWrap .innerLi {
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: center;
+  height: 100%;
+  border-radius: 4px;
+  border: 1px solid #e6e6e6;
+  background: #F7F7F7;
+  transition: all .5s ease;
+}
+.listWrap .innerLi:hover {
+  box-shadow: 0 0 20px rgba(150, 150, 150, .3);
+}
+.listWrap .img {
+  width: 80px;
+  height: 80px;
+  margin: -40px 0 10px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.listWrap .title {
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.listWrap .desc {
+  width: 180px;
+  margin: 0 auto 10px;
+  min-height: 50px;
+  font-size: 13px;
+  line-height: 25px;
+}
+.listWrap .btn {
+  width: 100px;
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 40px;
+  color: #fff;
+  background-color: #42c02e;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  border: 1px solid #42c02e;
+  white-space: nowrap;
+  user-select: none;
+}
+.listWrap hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  box-sizing: content-box;
+  height: 0;
+  border-top: 1px solid #eee;
+}
+.listWrap .updateTitle {
+  float: left;
+  margin-top: -29px;
+  padding-right: 10px;
+  font-size: 12px;
+  color: #969696;
+  background-color: #f8f8f8;
+}
+.listWrap .updateWrap a {
+  font-size: 13px;
+  line-height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  color: #333;
+}
+.listWrap .updateWrap a:hover {
+  text-decoration: underline;
+}
+.listWrap .moreBtn {
+  display: inline-block;
+  width: 38.2%;
+  padding: 10px 0;
+  margin: 40px auto;
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: #a5a5a5;
+  border: none;
+  color: #fff;
+}

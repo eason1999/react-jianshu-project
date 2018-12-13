@@ -1,0 +1,167 @@
+.contentList {
+  background: #fff;
+}
+.contentList .li {
+  position: relative;
+  overflow: hidden;
+  padding: 30px 0;
+  border-bottom: 1px solid #eee;
+}
+.readBtn {
+  width: 100%;
+  height: 40px;
+  margin: 30px auto 60px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #a5a5a5;
+  display: block;
+}
+.readBtn:hover {
+  color: #fff;
+}
+.contentWrap {
+  float: left;
+  padding-right: 165px;
+}
+.contentWrap .title {
+  margin: -5px 0 5px;
+  display: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.contentWrap .title:hover {
+  text-decoration: underline;
+}
+.contentWrap .content {
+  margin: 0 0 8px;
+  font-size: 13px;
+  line-height: 24px;
+  color: #999;
+}
+.contentWrap .author span, .contentWrap .author a {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #b4b4b4;
+}
+.contentWrap .author i {
+  font-size: 14px;
+  vertical-align: top;
+  margin-right: 3px;
+}
+.contentWrap .author a:hover {
+  color: #787878;
+}
+.contentWrap .author span, .contentWrap .author a {
+  margin-right: 10px;
+}
+.imgWrap {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  width: 150px;
+  height: 100px;
+  cursor: pointer;
+}
+.imgWrap .img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  border: 1px solid #f0f0f0;
+}
+
+/* 侧边栏 top border */
+.borderWrap {
+  width: 100%;
+  margin-top: -4px;
+}
+.borderWrap borderList {
+  width: 100%;
+}
+.borderWrap .borderLi {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.borderWrap .borderLi img {
+  width: 100%;
+  height: 100%;
+}
+
+/* 侧边栏 推荐列表 */
+.recommendWrap {
+  margin: 30px 0 20px;
+  width: 100%;
+}
+.recommendWrap .titleWrap {
+  font-size: 14px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.titleWrap span {
+  float: left;
+  color: #969696;
+}
+.titleWrap .changeIcon {
+  float: right;
+  cursor: pointer;
+  color: #969696;
+}
+.titleWrap .changeIcon i {
+  display: inline-block;
+  margin-right: 2px;
+  transition: all .2s ease;
+}
+.recommendList .recommendLi {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.recommendList .recommendLi .img {
+  float: left;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.recommendList .focus {
+  float: right;
+  font-size: 13px;
+  color: #42c02e;
+  margin-top: 6px;
+}
+.recommendList .content {
+  float: left;
+  margin-top: 4px;
+}
+.recommendList .title {
+  font-size: 14px;
+  color: #333;
+  display: block;
+}
+.recommendList .num {
+  font-size: 12px;
+  color: #969696;
+  margin: 0;
+}
+.recommendWrap .searchBtn {
+  display: block;
+  height: 35px;
+  padding: 7px;
+  width: 100%;
+  font-size: 13px;
+  color: #787878;
+  text-align: center;
+  background-color: #f7f7f7;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.recommendWrap .searchBtn:hover {
+  color: #787878;
+}

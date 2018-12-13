@@ -1,0 +1,207 @@
+.detailWrap {
+  width: 620px;
+  height: 100%;
+  margin: 90px auto 0;
+}
+.detailWrap h1 {
+  word-break: break-word!important;
+  margin: 20px 0 0;
+  font-family: -apple-system,SF UI Display,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.detailWrap .authorWrap {
+  margin: 30px 0 40px;
+}
+.authorWrap .avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 10px;
+}
+.authorWrap .descWrap {
+  vertical-align: middle;
+  display: inline-block;
+}
+.descWrap .info {}
+.descWrap .info span {
+  margin-right: 3px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.descWrap .info img {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 0;
+  border: 0;
+}
+.descWrap .info a {
+  background: #42c02e;
+  border-color: #42c02e;
+  padding: 0 7px 0 5px;
+  font-size: 12px;
+  border-radius: 40px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+.descWrap .content {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #969696;
+}
+.descWrap .content span {
+  padding-right: 5px;
+}
+.detailWrap .artical {
+  font-size: 16px;
+}
+.detailWrap .artical span {
+  display: block;
+  color: #333;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.artical img {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.detailWrap .supportWrap {
+  text-align: center;
+  margin: 20px auto;
+}
+.supportWrap p {
+  padding: 0 30px;
+  margin-bottom: 20px;
+  min-height: 24px;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 700;
+  color: #969696;
+}
+.supportWrap a {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 25px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ea6f5a;
+  border-radius: 20px;
+}
+.commentWrap {
+  width: 100%;
+}
+.commentWrap .titleWrap {
+  padding-bottom: 20px;
+  font-size: 17px;
+  border-bottom: 1px solid #f0f0f0;
+  overflow: hidden;
+}
+.titleWrap .commentTotal {
+  vertical-align: middle;
+  float: left;
+  font-weight: 700;
+}
+.titleWrap .commentRange {
+  float: right;
+  vertical-align: middle;
+}
+.commentRange span {
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #969696;
+  display: inline-block;
+}
+.commentWrap .li {
+  padding: 20px 0 30px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.commentWrap .li i {
+  font-size: 16px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+.commentWrap .li:last-child {
+  border-bottom: none;
+}
+.commentWrap .li .nameWrap {
+  margin-bottom: 15px;
+}
+.nameWrap img {
+  margin-right: 5px;
+  width: 38px;
+  height: 38px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+.nameWrap .authorName {
+  display: inline-block;
+  vertical-align: middle;
+}
+.authorName h2 {
+  font-size: 15px;
+  color: #333;
+  font-weight: 400;
+  line-height: 16px;
+}
+.authorName .commentStatus {
+  font-size: 12px;
+  color: #969696;
+}
+.commentStatus span {
+  margin-right: 6px;
+}
+.commentWrap .commentCon {
+  margin: 10px 0;
+  line-height: 1.5;
+  font-size: 16px;
+  word-break: break-word !important;
+}
+.commentWrap .supportWrap {
+  text-align: left;
+}
+.supportWrap span {
+  margin-right: 10px;
+  font-size: 0;
+  color: #969696;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+}
+.commentWrap .list .callList {
+  margin-top: 20px;
+  padding: 5px 0 5px 20px;
+  border-left: 2px solid #d9d9d9;
+}
+.commentWrap .list .callLi {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #f0f0f0;
+}
+.callLi .callCon {
+  margin: 0 0 5px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.callLi .callCon a {
+  color: #3194d0;
+}
+.callLi .callTime {
+  font-size: 12px;
+  color: #969696;
+}
+.callTime span {
+  margin-right: 10px;
+}
+.callList .subComment {
+  font-size: 14px;
+  color: #969696;
+}

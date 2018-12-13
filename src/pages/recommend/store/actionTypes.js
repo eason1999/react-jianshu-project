@@ -1,0 +1,1 @@
+export const GET_FOCUS_LIST = 'GET_FOCUS_LIST'

@@ -43,3 +43,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 # react-jianshu-project
+
+利用空余时间学习react技术，决定模仿编写简书网站，时间、精力有限，只模仿开发了几个页面而已.
+
+### `技术栈`
+
+`react`(16.6.3)、`react-router-dom`、`redux`、`react-redux`、`redux-thunk`、`react-loadable`、`css-module`、`styled-components`、`axios`

@@ -1,6 +1,5 @@
-import Loadable from 'react-loadable';
-
-const Loading = (props) => {
+import React from 'react';
+export const Loading = (props) => {
   if (props.error) {
     return <div>Error</div>
   } else if (props.timedOut) {

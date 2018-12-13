@@ -50,7 +50,7 @@ class Header extends Component {
         <SearchWrap onMouseEnter={handleMouseOver} onMouseLeave={handleMouseOut}>
           <SearchTop>
             <HotSearch>热门搜索</HotSearch>
-            <Change onClick={() => handleClick(currentPage, pageSize)}><i className="iconfont icon-xunhuan"></i>换一批</Change>
+            <Change onClick={() => handleClick(currentPage, pageSize, this.spinIcon)}><i ref={(icon) => {this.spinIcon = icon}} className="iconfont icon-xunhuan"></i>换一批</Change>
           </SearchTop>
           <SearchTag>
             {searchList}
@@ -104,6 +104,8 @@ class Header extends Component {
   }
 }
 
+let num = 1
+
 const mapStateToProps = (state) => {
   return {
     focused: state.getIn(['header', 'focused']),
@@ -130,7 +132,10 @@ const mapDispatchToProps = (dispatch) => {
     handleMouseOut() {
       dispatch(headerAction.mouseOut())
     },
-    handleClick(currentPage, pageSize) {
+    handleClick(currentPage, pageSize, spin) {
+      num++
+      console.log(spin.style)
+      spin.style.transform = `rotate(${360*num}deg)`
       dispatch(headerAction.addPageSize(currentPage, pageSize))
     }
   }

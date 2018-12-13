@@ -31,7 +31,7 @@ export const LogoDiv = styled.a.attrs({
 
 export const WriteBtn = styled.a.attrs({
   // eslint-disable-next-line
-  href: 'javascript:;'
+  href: 'javascript:void(0);'
 })`
   float: right;
   width: 100px;
@@ -48,7 +48,7 @@ export const WriteBtn = styled.a.attrs({
 
 export const RegisterDiv = styled.a.attrs({
   // eslint-disable-next-line
-  href: 'javascript:;'
+  href: 'javascript:void(0);'
 })`
   float: right;
   width: 80px;
@@ -66,7 +66,7 @@ export const RegisterDiv = styled.a.attrs({
 
 export const LoginDiv = styled.a.attrs({
   // eslint-disable-next-line
-  href: 'javascript:;'
+  href: 'javascript:void(0);'
 })`
   float: right;
   color: #969696;
@@ -78,7 +78,7 @@ export const LoginDiv = styled.a.attrs({
 
 export const ModeDiv = styled.a.attrs({
   // eslint-disable-next-line
-  href: 'javascript:;'
+  href: 'javascript:void(0);'
 })`
   float: right;
   line-height: 56px;
@@ -129,7 +129,7 @@ export const NavItem = styled.div`
     border-radius: 50%;
     text-align: center;
     line-height: 32px;
-    top: 14px;
+    top: 12px;
     right: 5px;
     cursor: pointer;
   }
@@ -196,7 +196,7 @@ export const HotSearch = styled.h3`
 `
 export const Change = styled.a.attrs({
   // eslint-disable-next-line
-  href: 'javascript:;'
+  href: 'javascript:void(0);'
 })`
   float: right;
   font-size: 13px;
@@ -206,8 +206,10 @@ export const Change = styled.a.attrs({
     color: #565656;
   }
   i {
+    display: inline-block;
     font-size: 14px;
     margin-right: 2px;
+    transition: all .2s ease;
   }
 `
 export const SearchTag = styled.div`
@@ -216,7 +218,7 @@ export const SearchTag = styled.div`
 
 export const Tag = styled.a.attrs({
   // eslint-disable-next-line
-  href: 'javascript:;'
+  href: 'javascript:void(0);'
 })`
   padding: 2px 6px;
   font-size: 12px;

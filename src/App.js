@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { renderRoutes } from 'react-router-config';
 import Header from './common/header';
-import Home from './pages/home';
+import routes from './route'
 
 class App extends Component {
   render() {
@@ -9,7 +10,11 @@ class App extends Component {
       <Fragment>
         <Header />
         <Router>
-          <Route exact path="/" component={Home}></Route>
+          {/* <div>
+            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/detail" component={Detail}></Route>
+          </div> */}
+          {renderRoutes(routes)}
         </Router>
       </Fragment>
     );
