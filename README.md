@@ -48,4 +48,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### 技术栈
 
-`react`、`react-router-dom`、`redux`、`react-redux`、`redux-thunk`、`react-loadable`、`css-module`、`styled-components`、`axios`
+`react`、`react-router-dom`、`redux`、`react-redux`、`redux-thunk`、`react-loadable`、`css-module`、`styled-components`、`axios`、`antd`

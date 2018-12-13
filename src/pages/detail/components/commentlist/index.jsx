@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { Pagination } from 'antd';
 import { detailActionCreators } from '../../store';
 import styled from '../../styled.css';
 
@@ -9,7 +10,7 @@ class CommentList extends Component {
 
   render() {
 
-    const { list } = this.props;
+    const { list, onShowSizeChange, onPageChange } = this.props;
     const commentList = list.toJS();
     console.log(commentList, 77788)
     return (
@@ -74,6 +75,7 @@ class CommentList extends Component {
             })
           }
         </ul>
+        <Pagination className={styled.pageWrap} showSizeChanger onChange={onPageChange} onShowSizeChange={onShowSizeChange} defaultCurrent={3} total={500} />
       </div>
     )
   }
@@ -92,6 +94,12 @@ const mapDispatchToProps = (dispatch) => {
   return {
     getList() {
       dispatch(detailActionCreators.getCommentList())
+    },
+    onShowSizeChange(current, pageSize) {
+      console.log(current, pageSize)
+    },
+    onPageChange(page, pageSize) {
+      console.log(page, pageSize)
     }
   }
 }
