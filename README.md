@@ -46,6 +46,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 利用空余时间学习react技术，决定模仿编写简书网站，时间、精力有限，只模仿开发了几个页面而已.
 
-### `技术栈`
+### 技术栈
 
-`react`(16.6.3)、`react-router-dom`、`redux`、`react-redux`、`redux-thunk`、`react-loadable`、`css-module`、`styled-components`、`axios`
+`react`、`react-router-dom`、`redux`、`react-redux`、`redux-thunk`、`react-loadable`、`css-module`、`styled-components`、`axios`
